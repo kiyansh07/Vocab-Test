@@ -1,0 +1,154 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Inter', sans-serif;
+}
+
+body{
+  background:#111111;
+  color:white;
+}
+
+/* PAGES */
+.page{
+  display:none;
+  padding:20px;
+  min-height:100vh;
+}
+
+.page.active{
+  display:block;
+}
+
+/* HERO */
+.hero{
+  text-align:center;
+  margin-top:120px;
+}
+
+h1{
+  color:#FFD700;
+  font-size:2.2rem;
+}
+
+.hero p{
+  margin:15px 0 30px;
+  color:#ddd;
+}
+
+/* BUTTONS */
+.gold-btn{
+  background:#FFD700;
+  color:#111;
+  border:none;
+  padding:12px 22px;
+  border-radius:30px;
+  font-weight:700;
+  cursor:pointer;
+  transition:.3s;
+}
+
+.gold-btn:hover{
+  transform:scale(1.05);
+  box-shadow:0 0 15px #FFD700;
+}
+
+.small{
+  margin-top:10px;
+}
+
+.submit{
+  width:100%;
+  margin-top:20px;
+}
+
+/* TIMER BAR */
+.top-bar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-bottom:20px;
+}
+
+#timer{
+  background:#222;
+  padding:8px 12px;
+  border-radius:8px;
+  color:#FFD700;
+  font-weight:bold;
+}
+
+/* PROGRESS BAR */
+.progress-container{
+  width:60%;
+  background:#222;
+  height:8px;
+  border-radius:10px;
+  overflow:hidden;
+}
+
+#progress-bar{
+  height:8px;
+  width:0%;
+  background:#FFD700;
+}
+
+/* UPLOAD BOX */
+.upload-box{
+  background:#181818;
+  padding:15px;
+  border-radius:12px;
+  margin-bottom:20px;
+}
+
+textarea{
+  width:100%;
+  height:80px;
+  margin-top:10px;
+  background:#222;
+  color:white;
+  border:1px solid #333;
+  padding:8px;
+}
+
+/* QUESTIONS */
+.question{
+  background:#181818;
+  padding:15px;
+  border-radius:12px;
+  margin-bottom:15px;
+}
+
+.options label{
+  display:block;
+  background:#222;
+  padding:8px;
+  margin:5px 0;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+.options input{
+  margin-right:8px;
+}
+
+/* RESULT */
+.result-card{
+  background:#181818;
+  padding:20px;
+  border-radius:15px;
+  margin-bottom:20px;
+}
+
+.correct{ color:#00ff66; }
+.wrong{ color:#ff4444; }
+
+/* MOBILE */
+@media(max-width:600px){
+  h1{font-size:1.8rem;}
+  .progress-container{width:100%;}
+}
+
