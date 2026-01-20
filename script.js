@@ -30,16 +30,58 @@ let answers = {};
 
 // -------- SAMPLE DEFAULT QUESTIONS --------
 questions = [
-  {
-    q:"Synonym of 'Abundant'?",
-    options:["Scarce","Plentiful","Rare","Little"],
-    correct:1
-  },
-  {
-    q:"Antonym of 'Brave'?",
-    options:["Courageous","Fearless","Cowardly","Bold"],
-    correct:2
-  }
+  {"q":"Meaning of 'decorate'","options":["beautify","clean","paint","remove"],"correct":0},
+  {"q":"Meaning of 'enhance'","options":["break","improve","hide","throw"],"correct":1},
+  {"q":"Meaning of 'garnish'","options":["cook","wash","decorate","add"],"correct":2},
+  {"q":"Meaning of 'amplify'","options":["reduce","close","stop","increase"],"correct":3},
+
+  {"q":"Meaning of 'deck'","options":["decorate","destroy","sell","buy"],"correct":0},
+  {"q":"Meaning of 'adorn'","options":["hide","decorate","break","throw"],"correct":1},
+  {"q":"Meaning of 'ornament'","options":["food","book","decoration","toy"],"correct":2},
+  {"q":"Meaning of 'caparison'","options":["hide","throw","break","dress"],"correct":3},
+
+  {"q":"Meaning of 'deface'","options":["spoil","plant","clean","build"],"correct":0},
+  {"q":"Meaning of 'blemish'","options":["paint","mark","wash","build"],"correct":1},
+  {"q":"Meaning of 'spoil'","options":["clean","fix","ruin","build"],"correct":2},
+  {"q":"Meaning of 'belittle'","options":["praise","shrink","build","insult"],"correct":3},
+
+  {"q":"Meaning of 'understate'","options":["reduce","exaggerate","hide","deny"],"correct":0},
+  {"q":"Meaning of 'profligate'","options":["quiet","wasteful","careful","poor"],"correct":1},
+  {"q":"Meaning of 'lavish'","options":["cheap","small","generous","weak"],"correct":2},
+  {"q":"Meaning of 'extravagant'","options":["tiny","quiet","simple","costly"],"correct":3},
+
+  {"q":"Meaning of 'spendthrift'","options":["spender","teacher","worker","saver"],"correct":0},
+  {"q":"Meaning of 'squanderer'","options":["runner","waster","thinker","saver"],"correct":1},
+  {"q":"Meaning of 'unthrifty'","options":["wise","careful","wasteful","quiet"],"correct":2},
+  {"q":"Meaning of 'imprudent'","options":["kind","silent","wise","careless"],"correct":3},
+
+  {"q":"Meaning of 'profuse'","options":["abundant","scarce","tiny","silent"],"correct":0},
+  {"q":"Meaning of 'economical'","options":["lazy","careful","angry","wasteful"],"correct":1},
+  {"q":"Meaning of 'frugal'","options":["sleep","shout","save","spend"],"correct":2},
+  {"q":"Meaning of 'thrifty'","options":["sad","angry","wasteful","careful"],"correct":3},
+
+  {"q":"Meaning of 'skimping'","options":["cutting","wasting","sleeping","saving"],"correct":0},
+  {"q":"Meaning of 'conserving'","options":["burning","saving","throwing","wasting"],"correct":1},
+  {"q":"Meaning of 'niggardly'","options":["rich","happy","stingy","generous"],"correct":2},
+  {"q":"Meaning of 'parsimonious'","options":["lazy","kind","spendthrift","stingy"],"correct":3},
+
+  {"q":"Meaning of 'penurious'","options":["poor","happy","angry","rich"],"correct":0},
+  {"q":"Meaning of 'negate'","options":["build","deny","paint","accept"],"correct":1},
+  {"q":"Meaning of 'deny'","options":["build","wash","refuse","accept"],"correct":2},
+  {"q":"Meaning of 'disown'","options":["keep","praise","accept","reject"],"correct":3},
+
+  {"q":"Meaning of 'refute'","options":["disprove","help","support","prove"],"correct":0},
+  {"q":"Meaning of 'disclaim'","options":["praise","deny","build","accept"],"correct":1},
+  {"q":"Meaning of 'disavow'","options":["praise","accept","deny","admit"],"correct":2},
+  {"q":"Meaning of 'abdicate'","options":["fight","win","rule","resign"],"correct":3},
+
+  {"q":"Meaning of 'renounce'","options":["give up","take","buy","accept"],"correct":0},
+  {"q":"Meaning of 'recant'","options":["agree","withdraw","support","repeat"],"correct":1},
+  {"q":"Meaning of 'accept'","options":["fight","leave","agree","refuse"],"correct":2},
+  {"q":"Meaning of 'espouse'","options":["hide","deny","reject","support"],"correct":3},
+
+  {"q":"Meaning of 'adopt'","options":["take","destroy","throw","refuse"],"correct":0},
+  {"q":"Meaning of 'affirm'","options":["ignore","confirm","refuse","deny"],"correct":1}
 ];
 // ------------------------------------------
 
